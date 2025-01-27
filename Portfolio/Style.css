@@ -1,0 +1,127 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.resume-container {
+  width: 800px;
+  background: linear-gradient(
+    135deg,
+    #242424,
+    #f5e3e3
+  ); /* Black to grey gradient */
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  background: #586468;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 20px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+
+.profile-section img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(255, 209, 2, 0.2);
+}
+
+.profile-section h1 {
+  font-size: 1.8rem;
+  color: #d7e3f0;
+  text-align: right;
+}
+
+h3 {
+  color: #000000;
+  border-bottom: 2px solid #066d4e;
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+p {
+  color: #0a0a0a;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+table th {
+  background: #c09d00;
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: #cce4eb;
+  border-radius: 20px;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+ul li:hover {
+  background: #3498db;
+  color: white;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #00385e;
+  margin: 2rem 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #000000;
+}
