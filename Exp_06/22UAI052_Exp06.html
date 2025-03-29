@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voter Asim</title>
+    <link rel="stylesheet" href="exp06.css" />
+    <script src="exp06.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Voter Validation Form</h2>
+      <form onsubmit="return validateForm()">
+        <div class="input-box">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter Full Name" required />
+        </div>
+
+        <div class="input-box">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter Email" required />
+        </div>
+
+        <div class="input-box">
+          <label for="dob">DOB</label>
+          <input type="date" id="dob" required />
+        </div>
+
+        <div class="input-box">
+          <label for="age">Age</label>
+          <input type="number" id="age" placeholder="Enter Age" required />
+        </div>
+
+        <div class="input-box">
+          <label for="address">Address</label>
+          <textarea
+            id="address"
+            placeholder="Enter Address"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
